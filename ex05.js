@@ -29,9 +29,12 @@
 function isEvenConcat(nb){
 var resultat=nb%2;
 if (resultat==0){
-return "nb est pair";
+let deb = "le nombre ";
+
+let rep = " est pair"
+return deb + nb + rep ;
 }
-else {return "nb est impair";
+else {return "le nombre " + nb + " est impair";
 }
 }
 console.log(isEvenConcat(nb));
