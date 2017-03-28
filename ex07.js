@@ -33,5 +33,4 @@ function boostedAddition(array){
 	return resultat;
 }
 
-console.log (boostedAddition([4, 5, 6]));
 

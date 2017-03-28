@@ -54,5 +54,3 @@ function isEven(nb) {
 }
 
 
-console.log(isAllEven([4, 5, 6]));
-console.log(isAllEven([4, 4, 6, 8, 10, 12]));
