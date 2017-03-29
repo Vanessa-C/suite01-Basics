@@ -57,10 +57,10 @@ if (nb < 12 && nb > 1)
 {return "enfant";}
 else if (nb>= 12 && nb < 18) 
 {return "ado";}
-if (nb >= 18 && nb < 124)
+else if (nb >= 18 && nb < 124)
 {return "adulte";}
-else  (nb >= 124 && nb < 1)
+else if  (nb >= 124 || nb < 1)
 {return "Impossible... ou encore jamais vu";}
 }
 
-console.log(getHumanTypeByAge(nb));
+
