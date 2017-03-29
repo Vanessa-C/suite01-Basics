@@ -38,5 +38,5 @@ else {return "le nombre " + nb + " est impair";
 }
 }
 console.log(isEvenConcat(nb));
-console.log(isEvenconcat(nb));
+console.log(isEvenConcat(nb));
 
